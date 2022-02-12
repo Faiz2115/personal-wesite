@@ -1,0 +1,153 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header ul li a:hover {
+  font-size: 1.3rem;
+}
+
+#home {
+  background: url(../Images/5.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 15% 0px;
+}
+
+#home .f-s {
+  font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 900px) {
+  #home {
+    background-position-y: 60px;
+  }
+}
+
+.quotes {
+  padding: 5%;
+  background-color: #f8f6f6;
+}
+
+.quotes img {
+  border-radius: 50px;
+}
+
+#intro {
+  padding: 6% 0px;
+  background-color: #d7dee2;
+}
+
+#intro img {
+  width: 150px;
+  height: 150px;
+}
+
+#intro a {
+  text-decoration: none;
+}
+
+#intro i {
+  background-color: #131212;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 18px;
+  font-size: 1.2rem;
+}
+
+#intro i:hover {
+  background-color: #3d3737;
+  color: white;
+}
+
+/* Projeets Section */
+.projects {
+  padding: 6% 0px;
+  background-color: #a0d6d3;
+}
+
+.projects2 {
+  padding: 3% 0px;
+  background-color: #e4e0e7;
+}
+
+.projects2 img {
+  width: 100%;
+}
+
+#skills {
+  padding: 6% 0 10% 0;
+  text-align: center;
+}
+
+#skills img {
+  background-color: #b0e5ee;
+  height: 250px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 15px 10px;
+  -webkit-box-shadow: 5px 5px #383535;
+          box-shadow: 5px 5px #383535;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#skills img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+  #skills img {
+    height: 100px;
+    width: 120px;
+  }
+}
+
+.contact {
+  height: 100%;
+  background-color: #dbdbdb;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact .poem {
+  width: 30%;
+  height: 100%;
+  font-size: 1.5rem;
+  word-spacing: 0.2rem;
+  text-align: justify;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.contact .poem span {
+  color: #b8cec5;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 30px 10px 0;
+  padding: 5px;
+  background-color: #222020;
+}
+
+.contact {
+  padding: 6% 0px;
+}
+/*# sourceMappingURL=style.css.map */
